@@ -114,7 +114,7 @@ There are two types of privacy that is correspondent with privacy of API:
 generic_client = GenericClient()
 
 // Create a MarketClient instance with customized host
-market_client = MarketClient(url="https://api-aws.huobi.pro")
+market_client = MarketClient(url="https://api.huobi.sg")
 ```
 
 **Private client**: It invokes private API to access private data, you need to follow the API document to apply an API Key first, and pass the API Key to the init function
@@ -124,7 +124,7 @@ market_client = MarketClient(url="https://api-aws.huobi.pro")
 account_client = AccountClient(api_key=g_api_key, secret_key=g_secret_key)
 
 // Create a TradeClient instance with API Key and customized host
-trade_client = TradeClient(api_key=g_api_key, secret_key=g_secret_key, url="https://api-aws.huobi.pro")
+trade_client = TradeClient(api_key=g_api_key, secret_key=g_secret_key, url="https://api.huobi.sg")
 ```
 
 The API key is used for authentication. If the authentication cannot pass, the invoking of private interface will fail.
