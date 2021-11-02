@@ -1,12 +1,12 @@
 
-HUOBI_URL_PRO = "https://api.huobi.pro"
-HUOBI_URL_VN = "https://api.huobi.vn"
-HUOBI_URL_SO = "https://api.huobi.so"
+HUOBI_URL_PRO = "https://api.huobi.sg"
+HUOBI_URL_VN = "https://api.huobi.sg"
+HUOBI_URL_SO = "https://api.huobi.sg"
 
 
-HUOBI_WEBSOCKET_URI_PRO = "wss://api.huobi.pro"
-HUOBI_WEBSOCKET_URI_VN = "wss://api.huobi.vn"
-HUOBI_WEBSOCKET_URI_SO = "wss://api.huobi.so"
+HUOBI_WEBSOCKET_URI_PRO = "wss://api.huobi.sg"
+HUOBI_WEBSOCKET_URI_VN = "wss://api.huobi.sg"
+HUOBI_WEBSOCKET_URI_SO = "wss://api.huobi.sg"
 
 class WebSocketDefine:
     Uri = HUOBI_WEBSOCKET_URI_PRO
